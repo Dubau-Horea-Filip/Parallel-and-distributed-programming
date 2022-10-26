@@ -7,35 +7,29 @@ public class Operation {
 
     private static AtomicInteger atomicInteger = new AtomicInteger(0);
 
-    OperationUsingSemaphore mutex;
+
     private int serialNumber;
-    private Account sender;
-    private Account reciver;
-    private int sum;
+    public Account sender;
+    public Account reciver;
+    public int sum;
 
     @Override
     public String toString() {
         return
                 "{serialNumber: " + serialNumber +
-                ", sender=" + sender.getAccountId() +
-                ", reciver=" + reciver.getAccountId() +
-                ", sum=" + sum+"}" ;
+                        ", sender=" + sender.getAccountId() +
+                        ", reciver=" + reciver.getAccountId() +
+                        ", sum=" + sum + "}";
     }
 
-    public Operation(Account reciver, Account sender, int sum,OperationUsingSemaphore mutex) {
+    public Operation(Account reciver, Account sender, int sum) {
         this.sender = sender;
         this.reciver = reciver;
         this.serialNumber = atomicInteger.incrementAndGet();
         this.sum = sum;
-        this.mutex=mutex;
+
     }
-    public Operation(Account reciver, Account sender, int sum ) {
-        this.sender = sender;
-        this.reciver = reciver;
-        this.serialNumber = atomicInteger.incrementAndGet();
-        this.sum = sum;
-        this.mutex=mutex;
-    }
+
 
     public void runOperation() {
         sender.setBalance(sender.getBalance() - this.sum);
@@ -45,18 +39,33 @@ public class Operation {
     }
 
     public void runOperationMutex() {
-        boolean ok=false;
-        while (!ok){
-        if (mutex.tryOp())
-        {
+
+
+
+        if (sender.getAccountId() < reciver.getAccountId()) {
+
+            sender.mutex.lock();
+            reciver.mutex.lock();
             sender.setBalance(sender.getBalance() - this.sum);
             reciver.setBalance(reciver.getBalance() + this.sum);
             sender.log.add(this);
             reciver.log.add(this);
-            ok = true;
-            mutex.finishOp();
-        }}
 
+
+
+        } else {
+            reciver.mutex.lock();
+            sender.mutex.lock();
+            reciver.setBalance(reciver.getBalance() + this.sum);
+            sender.setBalance(sender.getBalance() - this.sum);
+            sender.log.add(this);
+            reciver.log.add(this);
+//
+//            reciver.mutex.unlock();
+//            sender.mutex.unlock();
+        }
+        sender.mutex.unlock();
+        reciver.mutex.unlock();
     }
 
 

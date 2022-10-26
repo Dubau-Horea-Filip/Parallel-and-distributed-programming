@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.ReentrantLock;
 
 class OperationUsingSemaphore {
 
@@ -20,40 +21,43 @@ class OperationUsingSemaphore {
         semaphore.release();
     }
 
-    int availableSlots() {
-        return semaphore.availablePermits();
-    }
-
 }
 
 public class Main {
     public static void main(String[] args) {
         //System.out.println("unSincronised");
        // unSincronised();
-        System.out.println("Sincronised");
+       // System.out.println("Sincronised");
         syncronised();
 
     }
 
     public static void syncronised() {
+
         int nrThreads = 8;
         Thread[] threads = new Thread[nrThreads];
-        Account A = new Account(20);
-        Account B = new Account(5);
-        Account C = new Account(40);
-        Account D = new Account(78);
+
+        OperationUsingSemaphore mutex = new OperationUsingSemaphore(1);
+
+
+        Account A = new Account(20, new ReentrantLock());
+        Account B = new Account(5, new ReentrantLock());
+        Account C = new Account(40, new ReentrantLock());
+        Account D = new Account(78, new ReentrantLock());
         List<Account> accounts = new ArrayList<Account>();
         accounts.add(A);
         accounts.add(B);
         accounts.add(C);
         accounts.add(D);
-        OperationUsingSemaphore mutex = new OperationUsingSemaphore(1);
+
+
         for (int i = 0; i < nrThreads; ++i) {
             threads[i] = new Thread(new Runnable() {
 
 
                 @Override
                 public void run() {
+
                     Random rand = new Random();
                     int randomIndex = rand.nextInt(accounts.size());
                     Account sender = accounts.get(randomIndex);
@@ -64,11 +68,22 @@ public class Main {
                         randomIndex = rand.nextInt(accounts.size());
                         reciver = accounts.get(randomIndex);
                     }
+                    int random = rand.nextInt(6);
 
-                    int random = rand.nextInt(1,5);
-                    Operation op = new Operation(reciver,sender, random, mutex);
+                    Operation op = new Operation(reciver,sender, random);
                     op.runOperationMutex();
+
+                    if(random == 5 ){
+                        boolean ok = A.checksum(20)||B.checksum(5)||C.checksum(40)||D.checksum(78);
+                    if(ok == true)
+                    {
+                        System.out.println("cheksum done coreclty");
+                    }
+                    else {System.out.println("checksum failed");}
                 }
+                }
+
+
             });
         }
 
@@ -93,41 +108,16 @@ public class Main {
         System.out.println(B.log());
         System.out.println(C.log());
         System.out.println(D.log());
+        boolean ok = A.checksum(20)||B.checksum(5)||C.checksum(40)||D.checksum(78);
+        if(ok == true)
+        {
+            System.out.println("cheksum done coreclty");
+        }
+        else {System.out.println("checksum failed");}
+
     }
 
-    public static void unSincronised() {
-        int nrThreads = 5;
-        Thread[] threads = new Thread[nrThreads];
-        Account A = new Account(20);
-        Account B = new Account(5);
-        for (int i = 0; i < nrThreads; ++i) {
-            threads[i] = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    Operation op = new Operation(A, B, 1);
-                    op.runOperation();
-                }
-            });
-        }
 
-
-        for (int i = 0; i < nrThreads; ++i) {
-            threads[i].start();
-        }
-
-        for (int i = 0; i < nrThreads; ++i) {
-            try {
-                threads[i].join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
-        System.out.println(A.getBalance());
-        System.out.println(B.getBalance());
-        System.out.println(A.log());
-        System.out.println(B.log());
-    }
 
 }
 
