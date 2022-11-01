@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -16,17 +19,24 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         ReentrantLock mutex = new ReentrantLock();
-        final Condition flag  = mutex.newCondition();
+        Condition flag  = mutex.newCondition();
 
         ArrayList v1 = new ArrayList(List.of(3,5,4));
         ArrayList v2 = new ArrayList(List.of(2,7,5));
-        ArrayList<Integer> c = new ArrayList<>();
-        boolean ready = new Boolean(false);
-        Thread producer = new Producer(mutex,flag,v1,v2,c,ready);
-        Thread consumer = new Consumer(mutex,flag,c,ready);
+        Queue<Integer> queue = new LinkedList<>();
+        AtomicBoolean ready = new AtomicBoolean(false);
+        Producer producer = new Producer(mutex,flag,v1,v2,queue,ready);
+        Consumer consumer = new Consumer(mutex,flag,queue,ready);
         producer.run();
         consumer.run();
 
+        try {
+            producer.join();
+            consumer.join();
+        } catch(InterruptedException ie) {
+            System.out.println("Main: " + ie.getMessage());
+        }
+        System.out.println("Scalar Product is: " + consumer.getSumm() );
 
     }
 }
