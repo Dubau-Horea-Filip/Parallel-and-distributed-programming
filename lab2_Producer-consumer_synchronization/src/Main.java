@@ -21,14 +21,22 @@ public class Main {
         ReentrantLock mutex = new ReentrantLock();
         Condition flag  = mutex.newCondition();
 
-        ArrayList v1 = new ArrayList(List.of(3,5,4));
-        ArrayList v2 = new ArrayList(List.of(2,7,5));
+        ArrayList v1 = new ArrayList(List.of(3,5,4,1));
+        ArrayList v2 = new ArrayList(List.of(2,7,5,2));
+
+        ArrayList vector1 = new ArrayList<>();
+        ArrayList vector2 = new ArrayList<>();
+        for(int i=1;i<=100;i++)
+        {
+            vector1.add(i);
+            vector2.add(i);
+        }
         Queue<Integer> queue = new LinkedList<>();
         AtomicBoolean ready = new AtomicBoolean(false);
-        Producer producer = new Producer(mutex,flag,v1,v2,queue,ready);
-        Consumer consumer = new Consumer(mutex,flag,queue,ready);
-        producer.run();
-        consumer.run();
+        Producer producer = new Producer(mutex,flag,vector1,vector2,queue,ready);
+        Consumer consumer = new Consumer(mutex,flag,queue,ready,100);
+        producer.start();
+        consumer.start();
 
         try {
             producer.join();

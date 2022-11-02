@@ -9,15 +9,18 @@ public class Consumer extends Thread {
     private Condition flag;
     private Queue<Integer> queue;
     private AtomicBoolean ready;
-    private int queueSize=5;
+    private int queueSize = 5;
     private int summ;
+    private int sum = 0;
+    private int size;
 
 
-    public Consumer(ReentrantLock lock, Condition f, Queue com, AtomicBoolean ready) {
+    public Consumer(ReentrantLock lock, Condition f, Queue com, AtomicBoolean ready, int size) {
         this.flag = f;
         this.lock = lock;
         this.queue = com;
         this.ready = ready;
+        this.size = size;
     }
 
     public int getSumm() {
@@ -26,29 +29,34 @@ public class Consumer extends Thread {
 
     @Override
     public void run() {
+
+        for (int index = 0; index < this.size; index++) {
+            get(index);
+        }
+
+    }
+
+    public void get(int index) {
         this.lock.lock();
-        int sum = 0;
 
-                try {
-                    for(int index=0;index<3;index++) {
-                        while (this.queue.isEmpty()) {
-                            System.out.println("The queue is empty. Consumer is waiting");
-                            this.flag.await();
-                        }
-                        int val = queue.remove();
-                        sum += val;
-                        System.out.println("Consumer consumed -" + sum);
-                        //wake up producer thread
-                        this.flag.signal();
 
-                    }
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+        try {
 
-                } finally {
-                    this.lock.unlock();
-                }
-            this.summ=sum;
+            while (this.queue.isEmpty()) {
+                System.out.println("The queue is empty. Consumer is waiting");
+                this.flag.await();
+            }
+            int val = queue.remove();
+            sum += val;
+            System.out.println("Consumer consumed -" + val);
+            this.flag.signalAll();
 
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+
+        } finally {
+            this.lock.unlock();
+        }
+        this.summ = sum;
     }
 }

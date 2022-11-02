@@ -13,7 +13,7 @@ public class Producer extends Thread {
     private ArrayList<Integer> vector2;
     private Queue<Integer> queue;
     private AtomicBoolean ready;
-    private int queueSize=5;
+    private int queueSize = 5;
 
 
     public Producer(ReentrantLock lock, Condition f, ArrayList v1, ArrayList v2, Queue com, AtomicBoolean ready) {
@@ -27,26 +27,36 @@ public class Producer extends Thread {
 
     @Override
     public void run() {
-        lock.lock();
+
+
+        for (int index = 0; index < vector1.size(); index++) {
+            put(index);
+
+        }
+
+    }
+
+    public void put(int index) {
+        this.lock.lock();
         try {
 
             int value = 0;
-            for(int index=0;index<vector1.size();index++) {
-                while (this.queue.size() >= this.queueSize) {
-                    System.out.println("The queue is full. Producer is waiting. Size: " + this.queueSize);
-                    this.flag.await();
-                }
-                value = vector2.get(index) * vector1.get(index);
-                System.out.println("Producer produced- " + value);
-                //insert jobs in the list
-                queue.add(value);
-                this.flag.signal();
+
+            while (this.queue.size() >= this.queueSize) {
+                System.out.println("The queue is full. Producer is waiting. Size: " + this.queueSize);
+                this.flag.await();
             }
+            value = vector2.get(index) * vector1.get(index);
+            System.out.println("Producer produced- " + value);
+            //insert jobs in the list
+            queue.add(value);
+            this.flag.signalAll();
+
             //ready.set(true);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         } finally {
-            lock.unlock();
+            this.lock.unlock();
         }
 
     }
