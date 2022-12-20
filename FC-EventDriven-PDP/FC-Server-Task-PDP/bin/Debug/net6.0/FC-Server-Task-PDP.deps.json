@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FC-Server-Task-PDP/1.0.0": {
+        "runtime": {
+          "FC-Server-Task-PDP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FC-Server-Task-PDP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\bin\Debug\net6.0\FC-Server-Task-PDP.exe
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\bin\Debug\net6.0\FC-Server-Task-PDP.deps.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\bin\Debug\net6.0\FC-Server-Task-PDP.runtimeconfig.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\bin\Debug\net6.0\FC-Server-Task-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\bin\Debug\net6.0\FC-Server-Task-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.csproj.AssemblyReference.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.AssemblyInfoInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.AssemblyInfo.cs
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\refint\FC-Server-Task-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\FC-Server-Task-PDP.genruntimeconfig.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-Server-Task-PDP\obj\Debug\net6.0\ref\FC-Server-Task-PDP.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FC-EventDriven-Server-PDP/1.0.0": {
+        "runtime": {
+          "FC-EventDriven-Server-PDP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FC-EventDriven-Server-PDP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

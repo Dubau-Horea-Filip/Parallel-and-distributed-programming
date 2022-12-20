@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FC-EventDriven-Client-PDP": {
+      "commandName": "Project",
+      "commandLineArgs": "localhost\r\n55"
+    }
+  }
+}

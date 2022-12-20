@@ -1,0 +1,9 @@
+# ninja log v5
+9	2145	6926695181540980	CMakeFiles/lab5.dir/n2_seq.cpp.obj	22e3f594615e3b76
+1	1018	6927071541054060	CMakeFiles/lab5.dir/karatsuba_seq.cpp.obj	7902c016bf7466b4
+1	2294	6926695183063524	CMakeFiles/lab5.dir/n2_parallel.cpp.obj	46717935d1c0f16c
+3	4581	6927069502672161	CMakeFiles/lab5.dir/karatsuba_parallel.cpp.obj	1cb48022c0263e13
+1020	1186	6927071542651430	lab5.exe	46dccfd171ae99fd
+1	911	6927071689494807	build.ninja	ee95ed8df188ebf9
+1	262	6927071689494807	build.ninja	ee95ed8df188ebf9
+6	445	6927071695242958	lab5.exe	80ebab22cf365e2

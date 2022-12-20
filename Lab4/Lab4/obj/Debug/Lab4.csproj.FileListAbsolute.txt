@@ -1,0 +1,16 @@
+E:\UBB\PPD\Lab4\Lab4\bin\Debug\Lab4.exe.config
+E:\UBB\PPD\Lab4\Lab4\bin\Debug\Lab4.exe
+E:\UBB\PPD\Lab4\Lab4\bin\Debug\Lab4.pdb
+E:\UBB\PPD\Lab4\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+E:\UBB\PPD\Lab4\Lab4\obj\Debug\Lab4.csproj.SuggestedBindingRedirects.cache
+E:\UBB\PPD\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+E:\UBB\PPD\Lab4\Lab4\obj\Debug\Lab4.exe
+E:\UBB\PPD\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\obj\Debug\Lab4.csproj.AssemblyReference.cache
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\obj\Debug\Lab4.csproj.SuggestedBindingRedirects.cache
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\Faculate\paralele si distribuita\Github\Lab4\Lab4\obj\Debug\Lab4.pdb

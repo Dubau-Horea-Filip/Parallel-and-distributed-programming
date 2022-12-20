@@ -1,0 +1,15 @@
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-Server-PDP.exe
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-Server-PDP.deps.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-Server-PDP.runtimeconfig.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-Server-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-Server-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.csproj.AssemblyReference.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.AssemblyInfoInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.AssemblyInfo.cs
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\refint\FC-EventDriven-Server-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-Server-PDP.genruntimeconfig.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\ref\FC-EventDriven-Server-PDP.dll

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FC-Server-Task-PDP": {
+      "commandName": "Project",
+      "commandLineArgs": "55"
+    }
+  }
+}

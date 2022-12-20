@@ -1,0 +1,30 @@
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.exe
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.deps.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.runtimeconfig.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.csproj.AssemblyReference.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.AssemblyInfoInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.AssemblyInfo.cs
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\refint\FC-EventDriven-Client-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.genruntimeconfig.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\ref\FC-EventDriven-Client-PDP.dll
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.exe
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.deps.json
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.runtimeconfig.json
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.dll
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\bin\Debug\net6.0\FC-EventDriven-Client-PDP.pdb
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.csproj.AssemblyReference.cache
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.AssemblyInfoInputs.cache
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.AssemblyInfo.cs
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.csproj.CoreCompileInputs.cache
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.dll
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\refint\FC-EventDriven-Client-PDP.dll
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.pdb
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\FC-EventDriven-Client-PDP.genruntimeconfig.cache
+D:\Faculate\paralele si distribuita\Github\FC-EventDriven-PDP\FC-EventDriven-Client-PDP\obj\Debug\net6.0\ref\FC-EventDriven-Client-PDP.dll

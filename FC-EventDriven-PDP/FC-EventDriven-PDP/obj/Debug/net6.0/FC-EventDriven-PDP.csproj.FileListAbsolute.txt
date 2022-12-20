@@ -1,0 +1,15 @@
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-PDP.exe
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-PDP.deps.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-PDP.runtimeconfig.json
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\bin\Debug\net6.0\FC-EventDriven-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.csproj.AssemblyReference.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.AssemblyInfoInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.AssemblyInfo.cs
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\refint\FC-EventDriven-PDP.dll
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.pdb
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\FC-EventDriven-PDP.genruntimeconfig.cache
+D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\obj\Debug\net6.0\ref\FC-EventDriven-PDP.dll

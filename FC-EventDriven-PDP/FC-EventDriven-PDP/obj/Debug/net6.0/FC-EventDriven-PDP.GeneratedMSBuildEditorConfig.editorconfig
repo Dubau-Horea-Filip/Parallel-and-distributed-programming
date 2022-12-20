@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FC_EventDriven_PDP
+build_property.ProjectDir = D:\Facultate\Anul3\Sem1\Paralell_programming\lab4\FC-EventDriven-PDP\FC-EventDriven-PDP\
