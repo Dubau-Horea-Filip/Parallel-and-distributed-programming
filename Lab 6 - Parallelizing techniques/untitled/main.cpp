@@ -12,6 +12,7 @@ int graph[NR_NODES][NR_NODES];
 bool finished = false;
 std::mutex mutex;
 
+
 int generateRandomNumberInRange(int min, int max) {
     std::random_device rd;
     std::mt19937 mt(rd());
@@ -29,6 +30,31 @@ void generateRandomGraph() {
     }
 }
 
+void generateHGraph() {
+#define NR_NODES 10
+#define NR_EDGES 10
+
+    graph[0][1] = 1;
+    graph[1][2] = 1;
+    graph[2][3] = 1;
+    graph[3][4] = 1;
+    graph[4][5] = 1;
+    graph[5][6] = 1;
+    graph[6][7] = 1;
+    graph[7][8] = 1;
+    graph[8][9] = 1;
+    graph[9][0] = 1;
+
+}
+
+void generateNOTHGraph() {
+#define NR_NODES 10
+#define NR_EDGES 10
+    graph[0][1] = 1;
+    graph[1][2] = 1;
+    graph[2][3] = 1;
+}
+
 bool checkPath(const std::vector<int> &path) {
     int index = 0;
     while (index < path.size() - 2) {
@@ -42,7 +68,7 @@ bool checkPath(const std::vector<int> &path) {
 
 void printPath(const std::vector<int> &path) {
     std::cout << "Found path: " << std::endl;
-    for (auto &node : path) {
+    for (auto &node: path) {
         std::cout << node << " -> ";
     }
     std::cout << std::endl;
@@ -78,15 +104,17 @@ void doTask() {
 }
 
 int main() {
-    generateRandomGraph();
+    //generateRandomGraph();
+    //generateHGraph();
+    generateNOTHGraph();
 
     std::thread taskThreads[THREAD_COUNT];
 
-    for (auto & creatorThread : taskThreads) {
+    for (auto &creatorThread: taskThreads) {
         creatorThread = std::thread(doTask);
     }
 
-    for (auto & taskThread : taskThreads) {
+    for (auto &taskThread: taskThreads) {
         taskThread.join();
     }
 

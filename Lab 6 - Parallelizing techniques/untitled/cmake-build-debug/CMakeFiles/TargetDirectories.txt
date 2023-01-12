@@ -1,3 +1,3 @@
-D:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-D:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

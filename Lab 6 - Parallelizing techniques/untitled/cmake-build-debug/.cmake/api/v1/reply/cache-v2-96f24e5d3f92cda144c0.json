@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug"
+			"value" : "d:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Faculate/paralele si distribuita/Github/lab6/untitled"
+			"value" : "D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug"
+			"value" : "D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Faculate/paralele si distribuita/Github/lab6/untitled"
+			"value" : "D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled"
 		}
 	],
 	"kind" : "cache",

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Faculate/paralele si distribuita/Github/lab6/untitled
+# Install script for directory: D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

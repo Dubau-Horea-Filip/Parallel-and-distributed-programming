@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Programs\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\Faculate\paralele si distribuita\Github\lab6\untitled" -B"D:\Faculate\paralele si distribuita\Github\lab6\untitled\cmake-build-debug"
+  command = D:\Programs\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\Faculate\paralele si distribuita\Github\Lab 6 - Parallelizing techniques\untitled" -B"D:\Faculate\paralele si distribuita\Github\Lab 6 - Parallelizing techniques\untitled\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

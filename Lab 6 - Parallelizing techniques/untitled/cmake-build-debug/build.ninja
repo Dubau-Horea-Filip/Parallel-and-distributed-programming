@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Faculate/paralele$ si$ distribuita/Github/lab6/untitled/cmake-build-debug/
+cmake_ninja_workdir = D$:/Faculate/paralele$ si$ distribuita/Github/Lab$ 6$ -$ Parallelizing$ techniques/untitled/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Faculate/paralele$ si$ distribuita/Github/lab6/untitle
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug D$:/Faculate/paralele$ si$ distribuita/Github/lab6/untitled/main.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug D$:/Faculate/paralele$ si$ distribuita/Github/Lab$ 6$ -$ Parallelizing$ techniques/untitled/main.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\untitled.dir
@@ -81,7 +81,7 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Faculate\paralele si distribuita\Github\lab6\untitled\cmake-build-debug" && D:\Programs\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Faculate\paralele si distribuita\Github\Lab 6 - Parallelizing techniques\untitled\cmake-build-debug" && D:\Programs\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "D:\Faculate\paralele si distribuita\Github\lab6\untitled\cmake-build-debug" && D:\Programs\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\Faculate\paralele si distribuita\Github\lab6\untitled" -B"D:\Faculate\paralele si distribuita\Github\lab6\untitled\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Faculate\paralele si distribuita\Github\Lab 6 - Parallelizing techniques\untitled\cmake-build-debug" && D:\Programs\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S"D:\Faculate\paralele si distribuita\Github\Lab 6 - Parallelizing techniques\untitled" -B"D:\Faculate\paralele si distribuita\Github\Lab 6 - Parallelizing techniques\untitled\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Faculate/paralele si distribuita/Github/lab6/untitled/cmake-build-debug
+# Folder: D:/Faculate/paralele si distribuita/Github/Lab 6 - Parallelizing techniques/untitled/cmake-build-debug
 
 build all: phony untitled.exe
 
